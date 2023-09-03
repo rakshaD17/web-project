@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: hotpink;
+        }
+        .parent{
+            height: 800px;
+            width: 750px;
+            border: 1px solid;
+            margin:0 auto;
+            margin-top: 70px;
+            background-color: aliceblue;
+        }
+        #child
+        {
+            margin-left: 250px;
+        }
+        h3{
+            margin-top: 40px;
+            margin-left: 100px;
+        }
+        .c1{
+            margin-left: 70px;
+        }
+    
+        #name{
+            height: 30px;
+            width: 200px;
+            border-top: none;
+           border-left: none;
+           margin-left: 100px;
+           font-size: large;
+           border-radius: 5px;
+        }
+        #name2{
+            height: 30px;
+            width: 200px;
+            border-top: none;
+           border-left: none;
+           /* margin-left: 100px; */
+           font-size: large;
+           border-radius: 5px;
+        }
+        #email{
+            height: 30px;
+            width: 330px;
+           border-top: none;
+           border-left: none;
+           margin-left: 100px;
+           font-size: large;
+           border-radius: 5px;
+        }
+        #number{
+            height: 30px;
+            width: 330px;
+            border-top: none;
+           border-left: none;
+           margin-left: 100px;
+           font-size: large;
+           border-radius: 5px;
+        }
+        #m1{
+            height: 200px;
+            width: 400px;
+            border-top: none;
+           border-left: none;
+           margin-left: 100px;
+           font-size: large;
+           border-radius: 5px;
+        } 
+        .submit
+        {
+          margin-top: 45px;
+          margin-left: 300px;
+        }
+        #b1{
+            height: 50px;
+            width: 100px;
+            background-color: aqua;
+           font-size: larger;
+           border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div id="child"><h1>CONTACT US </h1></div>
+        <div class="c1">
+            <div class="name">
+                <h3>YOUR NAME*</h3>
+                <input type="text" name="" id="name" placeholder="FIRST NAME">
+                <input type="text" name="" id="name2" placeholder="LAST NAME">
+            </div>
+            <div>
+                <h3>EMAIL ADDRESS*</h3> 
+                <input type="email" name="" id="email" placeholder="abcd@gmail.com">
+            </div>
+            <div>
+                <h3>PHONE NUMBER*</h3>
+                <input type="number" name="" id="number" placeholder="+91 3974837492" >
+            </div>
+            <div>
+                <h3>MESSAGE</h3>
+                <input type="text" id="m1">
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit" id="b1">
+        </div>
+    </div>
+</body>
+</html>
